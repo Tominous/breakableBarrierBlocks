@@ -88,11 +88,11 @@ public class onBlockDamage implements Listener {
             }
           });
 
-      /*
+      
 
-      TODO
-      maybe consider adding it, in a different way. It might be possible and would look cool
-      11.07.2020 | Nico
+      //TODO
+      //maybe consider adding it, in a different way. It might be possible and would look cool
+      //11.07.2020 | Nico
 
       PacketContainer blockBreakAnimation = new PacketContainer(Server.BLOCK_BREAK_ANIMATION);
       blockBreakAnimation.getBlockPositionModifier().write(0, new BlockPosition(block.getX(), block.getY(), block.getZ()));
@@ -106,7 +106,7 @@ public class onBlockDamage implements Listener {
             "Cannot send packet " + blockBreakAnimation, e);
       }
 
-      */
+      
 
     } else if ("IRON_PICKAXE".equals(event.getItemInHand().getType().toString())) {
       if (!event.getItemInHand().getItemMeta().hasCustomModelData()) {
