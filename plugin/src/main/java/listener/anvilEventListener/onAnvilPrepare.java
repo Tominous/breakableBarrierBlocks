@@ -31,7 +31,7 @@ public class onAnvilPrepare implements Listener {
     if (pickaxeInt != -1) {
       ItemStack pickaxe = inventory.getItem(pickaxeInt);
       ItemMeta pickaxeMeta = pickaxe.getItemMeta();
-/*
+
       if (inventory.contains(Material.IRON_INGOT)) {
         if (inventory.contains(Material.IRON_PICKAXE)) {
           if (pickaxeMeta.hasCustomModelData()) {
@@ -80,7 +80,7 @@ public class onAnvilPrepare implements Listener {
           }
         }
       }
-      */
+      
       if (inventory.contains(Material.ENCHANTED_BOOK)) {
         if (inventory.contains(Material.IRON_PICKAXE)) {
           if (pickaxeMeta.hasCustomModelData()) {
@@ -107,7 +107,7 @@ public class onAnvilPrepare implements Listener {
           }
         }
       }
-/*
+
       if (pickaxeMeta.hasCustomModelData()) {
         if (pickaxeMeta.getCustomModelData() == 3347619) {
           if (!"Barrier Spitzhacke".equals(pickaxeMeta.getDisplayName().replace("§f", ""))) {
@@ -118,7 +118,7 @@ public class onAnvilPrepare implements Listener {
         }
       }
 
- */
+ 
     }
   }
 }
